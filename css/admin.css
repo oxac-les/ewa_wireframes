@@ -1,0 +1,167 @@
+/* admin pages */
+
+#adminPages h1, 
+#adminPages h2, 
+#adminPages h3, 
+#adminPages h4, 
+#adminPages h5, 
+#adminPages h6 {
+    font-family:arial;
+}
+
+.adminTabs a {
+    text-decoration:underline;
+}
+
+/* admin forms */
+
+label { 
+    width:300px;
+}
+.checkbox label {
+    width:600px;
+}
+input {
+    max-width:200px;
+}
+input.upload {
+    max-width:300px;
+}
+textarea {
+	max-width:800px;
+}
+label.biography { 
+	display:block;
+    margin-top:40px;
+}
+textarea.biography { 
+}
+.form-control {
+	display:inline;
+}
+input[type=radio], input[type=checkbox] {
+	margin-right:10px;
+    margin-left:0;
+}
+.btn-primary {
+    background-color:#002147;
+    padding:3px 6px;
+    margin:20px 0;
+}
+.cclicence label{
+    width:140px;
+}
+.tklicence label{
+    width:80px;
+}
+.notifications label{
+    display:block;
+    width:400px;
+}
+.radioBtns label{
+    width:140px;
+}
+.radioBtns input{
+
+}
+.hugeBtn {
+    height:180px;
+    width:180px;
+    background-color:#002147; 
+    color:white;
+    margin-top:20px; 
+}
+.hugeBtn:hover{
+    background-color: #3071a9; 
+    color:white;
+}
+.btn-xs {
+    font-size:0.6em !important;
+}
+
+/* jquery UI tabs */
+
+
+
+/* owl carousel */
+
+.admin-carousel .owl-prev:before { 
+    font-size:1em;
+    color:#ccc;
+    top:-20px;left:0px;;
+}
+
+.admin-carousel .owl-next:before { 
+    font-size:1em;
+    color:#ccc;
+    top:-20px;left:20px;
+}
+.admin .thumb-view {
+	position:relative;
+}
+
+.admin .title, #admin .title{
+	margin:10px 0;
+}
+
+.admin .create, #admin .create{
+	position:absolute;
+	top:50%;
+	text-align:center;
+    width:100%;
+}
+
+/* tables */
+
+th {
+    background-color:#fff;
+}
+tr:nth-child(even) {
+    background-color:#ddd;
+}
+tr:nth-child(odd) {
+    background-color:#eee;
+}
+table {width:100%; border:solid #eee 1px;}
+table td {padding:5px;}
+
+
+/* contribute form */
+
+.nav > li {
+    float:left;
+}
+
+.nav > li > a {
+    padding:15px;
+}
+
+.ui-state-default, .ui-widget-content, .ui-widget-header {
+    background: none;
+}
+
+.ui-widget-content, .ui-widget-header {border:none;}
+
+.control-label, .control-group label {
+    width:300px;float: left;
+}
+
+.control-group {
+    margin-top:20px;
+}
+
+.controls textarea, .controls input {
+    width:500px;
+}
+
+.btn-primary {
+    background-color:#002147;
+    padding:3px 6px;
+    margin:20px 0;
+}
+
+ul .nestedTree li {margin-left:20px;}
+ul .nestedTree .nestedTree li {margin-left:40px;}
+ul .nestedTree .nestedTree .nestedTree li {margin-left:60px;}
+ul .nestedTree .nestedTree .nestedTree .nestedTree li {margin-left:80px;}
+ul .nestedTree .nestedTree .nestedTree .nestedTree .nestedTree li {margin-left:100px;}
